@@ -1,0 +1,364 @@
+body{
+    background-color:rgb(252, 255, 57) ;
+}
+h1{
+    margin: 0px 40px 10px 10px;
+    font-size: 40px;
+}
+
+
+ul{
+    margin-left: 10px;
+    
+
+}
+li{
+    margin-left: 40px;
+   
+}
+li a{
+    padding: 7px 13px;
+    border-radius: 18px;
+    
+}
+.active{
+    background-color: rgb(252, 255, 57);
+    transition: .5s;
+    
+    border-radius: 18px;
+}
+li a:hover{
+    background-color: rgb(252, 255, 57);
+    
+}
+
+
+
+.newcard{
+    background-color: white;
+}
+
+
+
+.input-group{
+   
+   width: 500px;
+}
+
+
+.navbar{
+    background-color: rgb(255, 187, 0);
+    width: 100%;
+}
+.navbar-brand{
+    color: rgb(51, 135, 247) !important;
+}
+.form-inline{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(255, 187, 0);
+}
+.form-control{
+   width: 50% !important;
+   margin-top: 0px;
+  
+}
+
+.dropdown-menu{
+    background-color:rgb(255, 187, 0) ;
+    border: none;
+    
+}
+.dropdown-item{
+    color:white;
+}
+.btn-primary{
+    color: black !important;
+}
+
+.nav-item{
+    color: white !important;
+}
+.maincard{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    overflow: hidden;
+}
+.maincard2{
+    
+  
+   height: auto;
+    width: 160%;
+     position: relative;
+     display: flex;
+     animation-name: slideranimation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+.card1{
+    width: 20%;
+    height: auto;
+    float: left;
+ margin-left: 1.9%;
+}
+@keyframes slideranimation{
+    0%{
+        left: 0%;
+    }
+    10%  {
+            left: 0%;
+    }
+   12%{
+        left: -25%;
+    }
+    20%{
+        left: -25%;
+    }
+    22%{
+        left: -50%;
+    }
+    30%{
+        left: -50%;
+    }
+    32%{
+        left: -75%;
+    }
+    40%{
+      left: -75%; 
+    }
+    42%{
+        left:-50% ;
+    }
+    50%{
+        left:-50%;
+    }
+    52%{
+        left:-25%;
+    }
+    60%{
+        left:-25% ;
+    }
+    62%{
+        left: 0%;
+    }
+    70%{
+        left: 0%;
+    }
+    72%{
+        left: -25%;
+    }
+    80%{
+        left: -25%;
+    }
+    82%{
+        left: -50%;
+    }
+    90%{
+        left: -50%
+    }
+    92%{
+       left:-75% ; 
+    }
+    100%{
+     left: -75%;
+    }
+    }
+.fa-shopping-cart, .fa-user{
+    font-size: 32px !important;
+}
+.fa-user{
+    margin-left: 150px;
+}
+.fa-shopping-cart{
+    margin-left: 40px;
+}
+.navbar-toggler{
+    border: none;
+    font-size: 15px;
+    
+}
+.btn{
+    background-color: rgb(51, 135, 247) !important;
+    color: white !important;
+}
+.d-block{
+    height: 500px;
+}
+.newcard{
+    margin-top: 30px;
+    box-shadow: 2px 4px 5px gray;
+   margin-left: 32px;
+   width: 30%;
+   margin-bottom: 20px;
+  
+}
+.cart1{
+    float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+    
+}
+.card-img-top2{
+height: 300px;
+
+}
+
+.footer{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    
+    height: 250px;
+    width: 100%;
+}
+.foot{
+    /* margin-left: 50px;
+    padding-top: 20px; */
+    float: left;
+    margin-left: 20px;
+    width: 30%;
+    text-decoration: none !important;
+}
+.last{
+    background-color:  blue;
+    
+  
+    height: 30px;
+    width: 100%;
+    margin-left: 0px;
+margin-top: 0px;
+
+}
+.last2{
+    margin-left: 60px; 
+    color: white;
+
+}
+.no{
+    text-decoration: none !important;
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+    .fa-user{
+        margin-left: 50px;
+    }
+    .fa-shopping-cart{
+        margin-left: 10px;
+    }
+    .card1{
+        
+        margin-left: .5%;
+       
+    }
+   
+    .card{
+        width: 8rem !important;
+
+    }
+    
+    .cart1{
+    width: 10rem !important;
+    height: 20rem !important;
+    padding-right: 10px !important;
+        padding-left: 30px;
+    }
+    .card-img-top2{
+        height: 150px;
+        
+        }
+        
+        
+    @keyframes slideranimation{
+        0%{
+            left: 0%;
+        }
+        10%  {
+                left: 0%;
+        }
+       12%{
+            left: -35%;
+        }
+        20%{
+            left: -35%;
+        }
+        22%{
+            left: -70%;
+        }
+        30%{
+            left: -70%;
+        }
+        32%{
+            left: -105%;
+        }
+        40%{
+          left: -105%; 
+        }
+        42%{
+            left:-140% ;
+        }
+        50%{
+            left:-140%;
+        }
+        52%{
+            left:-170%;
+        }
+        60%{
+            left:-170% ;
+        }
+        /* 62%{
+            left: -210%;
+        }
+        70%{
+            left: -210%;
+        } */
+    }
+    .newcard{
+        width: 100%;
+        margin-left: 0px;
+        height: 90px;
+        margin-top: 10px;
+    }
+    .d-block{
+        height: 250px;
+    }
+    h2{
+        font-size: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .form-control, .btn{
+        font-size: 12px;
+    }
+    .nav-item, .dropdown-item{
+        font-size: 14px;
+    }
+    .fa-shopping-cart, .fa-user{
+        font-size: 25px !important;
+    }
+    .foot{
+        width: 100%;
+        margin-left: 0px;
+        
+    }
+    .footer{
+        height: 500px;
+    }
+    .last{
+        height: 40px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+} 
